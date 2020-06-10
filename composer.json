@@ -1,0 +1,34 @@
+{
+    "name": "sreedev/laravel-slack",
+    "description": "Laravel Slack Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sreedev",
+            "email": "reachme@sreedevr.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sreedev\\Slack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sreedev\\Slack\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Sreedev\\Slack\\SlackServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^5.3",
+        "phpunit/phpunit": "^9.2"
+    }
+}
