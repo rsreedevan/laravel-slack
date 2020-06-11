@@ -39,7 +39,7 @@ class Api
         $this->setfunctionSet($functionSet);
         $json = file_get_contents(__DIR__. '/Slack.json');
         $this->endPoints = json_decode($json, true);
-        $this->sendRequest($method, $data);
+        return $this->sendRequest($method, $data);
     }
     
     /**

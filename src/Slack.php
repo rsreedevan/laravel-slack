@@ -1,6 +1,8 @@
 <?php 
 namespace Sreedev\Slack;
 
+use Exception;
+
 class Slack
 {
     private $api_endpoint = "https://slack.com/api";
@@ -72,6 +74,10 @@ class Slack
      */
     public function makeRequest($http_verb, $method, $args = array(), $timeout = self::TIMEOUT)
     {
+        if( $this->api_token == '')
+        {
+            throw new Exception('\Exception');
+        }
         $url = $this->api_endpoint . '/' . $method;
 
         $response = $this->prepareStateForRequest($http_verb, $method, $url, $timeout);
