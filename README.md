@@ -1,7 +1,9 @@
 # laravel-slack
 Laravel Slack API Library - Very Simple Slack API Library for Laravel
 [![Build Status](https://travis-ci.org/rsreedevan/laravel-slack.svg?branch=master)](https://travis-ci.org/rsreedevan/laravel-slack)
+
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rsreedevan/laravel-slack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rsreedevan/laravel-slack/?branch=master)
+
 [![Build Status](https://scrutinizer-ci.com/g/rsreedevan/laravel-slack/badges/build.png?b=master)](https://scrutinizer-ci.com/g/rsreedevan/laravel-slack/build-status/master)
 
 ## Installation 
